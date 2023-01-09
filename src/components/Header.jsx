@@ -6,6 +6,9 @@ const Header = () => {
     return (
         <header className="header">
             <nav className="header nav">
+                <div>
+                    <img src='../images/ProfilePhoto.jpg' className="header img" alt="Shahnawaz Yasser logo" />
+                </div>
                 <ul className="header nav ul">
                     <li className="header nav ul li"><a href = "/" className="header nav ul li a">Home</a></li>
                     <li className="header nav ul li"><a href = "about" className="header nav ul li a">About</a></li>

@@ -1,7 +1,7 @@
 header {
-    background-color: #333;
+    background-color: rgb(255, 255, 255);
     color: #fff;
-    padding: 20px;
+    padding: 60px;
   }
   
   header nav {
@@ -9,6 +9,12 @@ header {
     justify-content: space-between;
   }
   
+  header img {
+    display: flex;
+    height: 100px;
+    width: 200px;
+  }
+
   header nav ul {
     display: flex;
     list-style: none;
@@ -21,11 +27,11 @@ header {
   }
   
   header nav ul li a {
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-decoration: none;
   }
   
   header nav ul li a:hover {
-    color: #ccc;
+    color: rgb(109, 109, 109);
   }
   
