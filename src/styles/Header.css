@@ -1,7 +1,7 @@
 header {
     background-color: rgb(255, 255, 255);
     color: #fff;
-    padding: 60px;
+    padding: 60px 60px 0px 60px;
   }
   
   header nav {
@@ -27,11 +27,15 @@ header {
   }
   
   header nav ul li a {
-    color: rgb(0, 0, 0);
+    color: rgb(63, 63, 63);
     text-decoration: none;
   }
   
   header nav ul li a:hover {
+    color: rgb(109, 109, 109);
+  }
+  
+  header nav ul li a:active{
     color: rgb(109, 109, 109);
   }
   

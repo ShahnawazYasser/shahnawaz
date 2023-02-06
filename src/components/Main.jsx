@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../styles/Main.css';
 
 const Main = () => {
 
@@ -14,8 +14,9 @@ const Main = () => {
                         </div>
                     </div>
                     <div className="container-right">
-                        <div>
-                            <h2>Creating New Websites Inspires Me…</h2>
+                        <div className="right-content">
+                            <h1 className="container-right h1">Shahnawaz Yasser</h1>
+                            <h2 className="container-right h2">Creating New Websites Inspires Me…</h2>
                             <p>Hello! Im Shahnawaz, a Pakistan/Northern Cyprus based freelancer. 
                                 I do not work with freelancing organizations as they charge more than required. 
                                 Thats why I started my own practice; so people can have a choice.
@@ -25,6 +26,7 @@ const Main = () => {
                                 I also create WordPress powered websites for those 
                                 who do not need a highly customized website.
                             </p>
+                            <icons></icons>
                         </div>
                     </div>
                 </div>

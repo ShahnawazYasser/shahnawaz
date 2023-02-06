@@ -4,7 +4,8 @@
 
 .container-coloumn {
     display: flex;
-    background-color: #c0bfbf;
+    background-color: #e9e9e9;
+    padding-top: 60px;
 }
 
 .container-left {
@@ -15,6 +16,29 @@
 .container-right {
     width: 50%;
 }
+
+.right-content {
+    align-content: center;
+}
+
 .container-right p {
     text-size-adjust: 12px;
+    color: #303030;
+}
+
+.container-right h1 {
+    width: 100%;
+    padding: 20px 0 20px 20px;
+    margin: 0 0 0 -265px;
+    background-color: #7b7b7b;
+    color: white;
+    font-size: 70px;
+    font-weight: 400;
+}   
+
+.container-right h2 {
+    width: 70%;
+    font-size: 40px;
+    font-weight: 400;
+    color: #222222;
 }
